@@ -1,0 +1,68 @@
+.pageheader
+{
+    display: flex;
+    flex-direction: row; 
+    align-content: center;
+    background-color: white;
+    height: 9%;
+    width: 90%;
+    border: 1px solid #d8cfc0;
+    position: fixed;
+    top: 0;
+
+  
+}
+
+.navigation
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero
+{
+   
+       width: 95%;
+        height: 100%;
+         opacity: 1;
+          visibility: inherit;
+           z-index: 20;
+           margin: auto;
+}
+
+#hero
+{
+    width: 100%;
+   
+}
+
+.description
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray;
+    width: 95%;
+    margin: auto;
+    padding:5px;
+}
+
+left
+{
+width: 26%;
+}
+
+right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.postheader
+{
+    margin:auto;
+}
