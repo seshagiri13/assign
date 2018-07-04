@@ -10,7 +10,7 @@ body
     height: 100%;
   
 }
-maincontent
+.websitecontent
 {
     display: flex;
     flex-direction: column;
@@ -46,14 +46,15 @@ a
     color: inherit;
 }
 
+
 li a.active {
-    border:coral;
-    color: #d8cfc0;
+    border:rgb(255, 80, 182);
+    color:rgb(255, 80, 182);
 }
 
 li a:hover:not(.active) {
-    border:coral;
-    color: #d8cfc0;
+    border:rgb(106, 80, 255);
+    color: rgb(106, 80, 255);
 }
 
 p{
@@ -65,6 +66,7 @@ span
 {
     font-family: 'Lobster'; 
     font-size: 27px;
+   
 }
 
 footer{
@@ -76,25 +78,5 @@ footer{
     color: white;
 }
 
-@media only screen and (max-width: 800px) {
-    #hero
-    {
-        width: 50%;
-       height: 50%
-    }
 
-}
-
-
-@media only screen and (max-width: 600px) {
-    .description { flex-wrap: wrap;  }
-    discription1 { flex-basis: 100%; }
-    footer{ flex-wrap: wrap;}
-    left {flex-basis: 100%; }
-    .navigation {flex-wrap: wrap; }
-    ul:first-child { flex-basis: 100%; }
-    #img {width:60% ;height:60% }
-    #hero {width:60% ;height:60% }
-
-}
 

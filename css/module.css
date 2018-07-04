@@ -12,8 +12,14 @@
 
   
 }
+nav
+{
+    width: 90%;  
+    display: flex;
+    align-items: center;
+}
 
-.navigation
+.nav
 {
     display: flex;
     width: 90%;
@@ -49,12 +55,21 @@
     margin: auto;
 }
 
-left
+article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+
+.left
 {
 width: 26%;
 }
 
-right
+.right
 {
     display: flex;
     flex-direction: column;
@@ -64,5 +79,7 @@ right
 
 .postheader
 {
-    margin:auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 }
