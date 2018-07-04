@@ -75,3 +75,26 @@ footer{
     background: black;
     color: white;
 }
+
+@media only screen and (max-width: 800px) {
+    #hero
+    {
+        width: 50%;
+       height: 50%
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .description { flex-wrap: wrap;  }
+    discription1 { flex-basis: 100%; }
+    footer{ flex-wrap: wrap;}
+    left {flex-basis: 100%; }
+    .navigation {flex-wrap: wrap; }
+    ul:first-child { flex-basis: 100%; }
+    #img {width:60% ;height:60% }
+    #hero {width:60% ;height:60% }
+
+}
+

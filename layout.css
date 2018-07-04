@@ -9,10 +9,10 @@ footer{
 }
 .logo
 {
-    width:30%;
+    width:28%;
     height:100%;
   /*  background-image: url('./images/logo.png');*/
     background-repeat: no-repeat;
-    background-size: 150px 50px;
+    background-size: 150px 150px;
     border: 4px  #d8cfc0;
 }
