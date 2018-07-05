@@ -24,3 +24,11 @@ footer{
     align-items: center;
 }
 
+.facebookicon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+.fbapad{padding-left: 17px;}
